@@ -1,0 +1,42 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.container{
+width:100%;
+height: 100vh;
+background-color: blueviolet;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.second-container{
+    color: white;
+}
+.temperature{
+    font-size: 35px; 
+}
+.time-location{
+    font-size: 28px;
+}
+.condition{
+    font-size: 23px;
+}
+
+.search-area{
+border-radius: 30px;
+padding: 10px 15px;
+
+}
+.btn:hover{
+    background-color:navajowhite;
+}
+.btn{
+    padding: 10px 15px;
+    position: relative;
+    margin: 20px 50px;
+    border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+
+}
