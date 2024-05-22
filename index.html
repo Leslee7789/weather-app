@@ -9,24 +9,24 @@
 <body>
     <div class="container">
         <div class="second-container">
-            <div class="temperature" >
-                <p>20&deg</p>
+            <div class="temperature">
+                <p id="temperature">20&deg;</p>
             </div>
             <div class="time-location">
-                <p>Accra</p>
-                <p>12:21 Tuesday 15-05-2024</p>
+                <p class="city" id="city">Accra</p>
+                <p id="date-time">12:21 Tuesday 15-05-2024</p>
             </div>
             <div class="condition">
-                <p></p>
+                <p id="condition"></p>
                 <p>sunny and cloudy</p>
-                <img src="sunny.jpeg">
+                <img id="weather-icon" src="sunny.jpeg" alt="Weather Icon">
             </div>
-            <div><input type="text" placeholder="search location" class="search-area">
-                <button type="submit" class="btn">search</button>
+            <div>
+                <input type="text" placeholder="Search location" class="search-area" id="search-input">
+                <button type="submit" class="btn" id="search-button">Search</button>
+            </div>
         </div>
-        </div>
-
     </div>
-
+    <script src="index.js"></script>
 </body>
 </html>
